@@ -1,0 +1,19 @@
+.gender-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.gender-stat .rate {
+  font-size: 32px;
+}
+
+.gender-stat img {
+  width: 125px;
+}
+
+.gender-label {
+  margin-top: 15px;
+  font-weight: bold;
+}

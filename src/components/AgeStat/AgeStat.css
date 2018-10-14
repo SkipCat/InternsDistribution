@@ -1,0 +1,43 @@
+.age-stat {
+  width: 400px;
+}
+
+.age-stat-label {
+  margin-bottom: 0;
+}
+
+.bar-chart-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+}
+
+.bar-chart {
+  width: 80%;
+  height: 5px;
+  background-color: #E8A634;
+}
+
+.separator {
+  width: 5px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #E8A634;
+}
+
+.bar-chart-legend {
+  display: flex;
+  flex-direction: column;
+}
+
+.age-stat-total {
+  font-size: 14px;
+  color: #9CAEC5;
+  margin: 0;
+}
+
+.age-stat-rate {
+  font-size: 20px;
+  margin: 0;
+}

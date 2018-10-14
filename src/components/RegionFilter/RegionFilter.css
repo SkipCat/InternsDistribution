@@ -1,0 +1,34 @@
+.data-filter {
+  width: 250px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.data-filter select,
+.filter-selected img {
+  margin-right: 15px;
+}
+
+.filter-selected {
+  position: relative;
+  background-color: #A2313A;
+  padding: 0 15px;
+  color: #ffffff;
+}
+
+.filter-selected img {
+  width: 18px;
+}
+
+.filter-compare {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  padding: 0 15px;
+  background-color: #DDE1EC;
+}
+
+.filter-compare .toggle {
+  margin-right: 10px;
+}
