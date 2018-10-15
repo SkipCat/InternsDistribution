@@ -98,7 +98,7 @@ class App extends Component<{}, AppState> {
                   </div>
                 </div>
               )
-            ) : <p>Choose a region to display some data</p>
+            ) : <p className="default-text">Choose a region to display some data</p>
           }
         </main>
       </div>

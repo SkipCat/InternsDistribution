@@ -11,6 +11,7 @@ main {
 
 .App h1 {
   font-size: 18px;
+  font-weight: initial;
 }
 
 .App h2 {
@@ -60,4 +61,11 @@ main {
   .age-stat-container {
     margin-top: 0;
   }
+}
+
+.default-text {
+  text-align: center;
+  margin-top: 150px;
+  font-weight: lighter;
+  font-size: 22px;
 }

@@ -15,17 +15,6 @@ interface GenderStatProps {
 
 export default class GenderStat extends Component<GenderStatProps> {
 
-  // public drawSvg = () => {
-  //   var svgContainer = d3.select("body").append("svg")
-  //     .attr("width", 200)
-  //     .attr("height", 200);
-    
-  //   var circle = svgContainer.append("circle")
-  //     .attr("cx", 30)
-  //     .attr("cy", 30)
-  //     .attr("r", 20);
-  // }
-
   public render() {
     const { gender, rate } = this.props;
 
@@ -35,6 +24,7 @@ export default class GenderStat extends Component<GenderStatProps> {
         <img 
           src={gender === Gender.MEN ? require('../../icons/man.svg') : require('../../icons/woman.svg')}
         />
+        <div className="donut-chart"/>
         <p className="gender-label">{gender}</p>
       </div>
     );

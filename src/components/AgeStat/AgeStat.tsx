@@ -18,7 +18,9 @@ export default class AgeStat extends Component<AgeStatProps> {
       <div className="age-stat">
         <p className="age-stat-label">{label}</p>
         <div className="bar-chart-container">
-          <div className="bar-chart"/>
+          <div className="bar-chart">
+            <div className="bar-chart-indicator" style={{ width: `${rate}%` }}/>
+          </div>
           <div className="separator"/>
           <div className="bar-chart-legend">
             <p className="age-stat-total">{total}</p>

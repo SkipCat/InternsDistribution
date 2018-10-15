@@ -51,7 +51,7 @@ export default class RegionFilter extends Component<RegionFilterProps, RegionFil
 
     return (
       !regionName ? (
-        <div className="data-filter">
+        <div className="region-filter">
           <select id="select-region">
             { regions.map((region: any) => {
               return <option key={region.code} value={region.name}>{region.name}</option>;
@@ -61,12 +61,12 @@ export default class RegionFilter extends Component<RegionFilterProps, RegionFil
         </div>
       ) : (
         <Fragment>
-          <div className="data-filter filter-compare">
+          <div className="region-filter filter-compare">
             <Switch
               checked={isComparisonActive}
               onChange={this.toggleComparison}
               offColor="#BEBEBE"
-              onColor="#E8A634"
+              onColor="#A2313A"
               uncheckedIcon={false}
               checkedIcon={false}
               height={15}
@@ -76,7 +76,7 @@ export default class RegionFilter extends Component<RegionFilterProps, RegionFil
             />
             <p>National comparison</p>
           </div>
-          <div className="data-filter filter-selected">
+          <div className="region-filter filter-selected">
             <img src={closeIcon} onClick={this.removeSelect}/>
             <p id="region-name">{regionName}</p>
           </div>
